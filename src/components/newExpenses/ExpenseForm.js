@@ -20,6 +20,9 @@ const ExpenseForm = () =>{
                     <input type='date' />
                 </div>
             </div>
+            <div className='new-expense__actions'>
+                <button type='submit'>Submit New Expense</button>
+            </div>
         </form>
     );
     
